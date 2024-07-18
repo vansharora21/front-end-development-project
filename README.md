@@ -1,0 +1,1 @@
+This repository contains multiple web development projects showcasing a variety of technologies and frameworks. Projects include a portfolio website, an e-commerce store, and a blog platform. Each project demonstrates the use of HTML, CSS, JavaScript, React, Node.js, and more, highlighting best practices in web development. Perfect for learning and reference.
