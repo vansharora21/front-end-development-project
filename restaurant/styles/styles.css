@@ -1,0 +1,360 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger-lines {
+  display: none;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items li {
+  margin-right: 20px;
+}
+
+.menu-items a {
+  color: #fff;
+}
+
+.menu-items a:hover {
+  color: #ccc;
+}
+
+
+/* Showcase Area Styles */
+
+.showcase-area {
+  background-image:url(top-view-delicious-spaghetti-with-copy-space_23-2150857950.avif),
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.showcase-container {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #ff69b4;
+}
+.btn {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #23527c;
+}
+
+/* About Section Styles */
+
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text {
+  width: 50%;
+  padding: 20px;
+}
+
+.about-img {
+  width: 50%;
+  padding: 20px;
+}
+
+.about-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Food Section Styles */
+
+.food-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food-type {
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.food-type img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.img-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.img-content h3 {
+  margin-top: 0;
+}
+
+/* Food Menu Section Styles */
+
+.food-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food-menu-item {
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.food-menu-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.food-description {
+  padding: 10px;
+  text-align: center;
+}
+
+.food-price {
+  font-weight: bold;
+  color: #337ab7;
+}
+
+/* Testimonials Section Styles */
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial-box {
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.customer-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.contact-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.form-container {
+  width: 50%;
+  padding: 20px;
+}
+
+.form-container input,.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.form-container input[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #23527c;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+footer h2 {
+  margin-top: 0;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+ .container {
+    max-width: 90%;
+  }
+ .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+ .hamburger-lines {
+    display: block;
+  }
+ .menu-items {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+ .menu-items li {
+    margin-right: 0;
+  }
+ .logo {
+    margin-right: 0;
+  }
+ .showcase-area {
+    height: 50vh;
+  }
+ .about-wrapper {
+    flex-direction: column;
+  }
+ .about-text {
+    width: 100%;
+  }
+ .about-img {
+    width: 100%;
+  }
+ .food-container {
+    flex-direction: column;
+  }
+ .food-type {
+    width: 100%;
+  }
+ .food-menu-container {
+    flex-direction: column;
+  }
+ .food-menu-item {
+    width: 100%;
+  }
+ .testimonial-container {
+    flex-direction: column;
+  }
+ .testimonial-box {
+    width: 100%;
+  }
+ .contact-container {
+    flex-direction: column;
+  }
+ .contact-img {
+    width: 100%;
+  }
+ .form-container {
+    width: 100%;
+  }
+}
